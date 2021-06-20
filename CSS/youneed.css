@@ -1,0 +1,24 @@
+body {
+  background-image: url(../Images/購物須知美麗的背景.jpg);
+
+}
+
+form.backcard {
+  width: 100%;
+  height: 200vh;
+  margin-top: 200px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.youth {
+  background-color: #f7d1cd;
+  opacity: 1;
+  box-shadow: 10px 10px 5px #d2d2cf;
+}
+
+.over_word {
+  color: #353535;
+  float: left;
+  margin-bottom: 20px;
+}

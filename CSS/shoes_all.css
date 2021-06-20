@@ -1,0 +1,293 @@
+* {
+  text-decoration: none;
+}
+
+.pro-card {
+  width: 900px;
+  overflow: hidden;
+  position: relative;
+  margin-top: 500px;
+  left: 50%;
+  line-height: 2;
+  transform: translate(-50%, -50%);
+  background-color: #fde2e4;
+  border-radius: 20px;
+  box-shadow: 2px 2px 6px #33415c;
+  /*敹���!!!*/
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.iii {
+  max-width: 400px;
+  max-height: 400px;
+  overflow: hidden;
+  float: left;
+  margin: 0 auto;
+  line-height: 2;
+}
+
+.iii img {
+  width: 100%;
+}
+
+.pro-info {
+  float: left;
+  padding: 20px;
+}
+
+.pro-info span {
+  display: block;
+  overflow: hidden;
+  margin: 4px 0;
+}
+
+.verysmall {
+  width: 110px;
+  height: 20px;
+  font-size: 14px;
+  color: #ff758f;
+  background-color: #d6e2e9;
+  border-radius: 2px;
+}
+
+.desc {
+  font-size: 16px;
+  font-weight: inherit;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #0096c7;
+}
+
+.speci {
+  font-size: 16px;
+  font-weight: inherit;
+  font-family: Georgia,
+    'Times New Roman',
+    Times,
+    serif;
+  color: #3c096c;
+}
+
+
+
+.price {
+  color: #a4133c;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 22px;
+}
+
+.pro-info span a {
+  display: block;
+  float: left;
+  padding: 2px 4px;
+  margin-right: 6px;
+  border: 1.5px solid;
+  color: #ff758f;
+  font-size: 20px;
+  border-radius: 6px;
+}
+
+.addto {
+  width: 200px;
+  font-size: 24px;
+  color: #ff758f;
+  background-color: #eae2b7;
+  display: block;
+  float: left;
+  padding: 6px;
+  text-align: center;
+  border-radius: 8px;
+  margin: 8px 0;
+}
+
+.addnow {
+  width: 200px;
+  font-size: 24px;
+  color: #eae2b7;
+  background-color: #ff758f;
+  display: block;
+  float: right;
+  padding: 6px;
+  text-align: center;
+  border-radius: 8px;
+  margin: 8px 0;
+}
+
+.addto:hover {
+  transform: scale(1.1);
+  opacity: 0.7;
+}
+
+.addnow:hover {
+  transform: scale(1.1);
+  opacity: 0.7;
+}
+
+.conta {
+  width: 780px;
+  min-height: 10px;
+  margin: 90px auto;
+  margin-left: -40px;
+}
+
+.comment-send {
+  margin-bottom: 30px;
+}
+
+.comment-button {
+  display: inline-block;
+  border-radius: 9px;
+  background-color: #f38375;
+  text-align: center;
+  font-size: 20px;
+  width: 200px;
+  height: 40px;
+  margin-top: 20px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.comment-button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.comment-button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.comment-button:hover span {
+  padding-right: 25px;
+}
+
+.comment-button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.comment-input {
+  width: 1000px;
+  height: 200px;
+  border: 1px solid #dbd3d8;
+  box-shadow: 2px 2px 8px #5c6b73;
+}
+
+
+.mment img {
+  max-width: 80px;
+  max-height: 8 0px;
+  overflow: hidden;
+}
+
+.talk {
+  width: 200px;
+  height: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 2;
+  margin-top: -300px;
+  margin-left: 182px;
+  background-color: #b76e79;
+  text-align: center;
+  border-radius: 4px 8px;
+}
+
+.talk:hover {
+  transform: scale(1.1);
+  cursor: copy;
+}
+
+.comshow {
+  width: 70%;
+  height: 120px;
+  background-color: #a9d6e5;
+  border-radius: 10px;
+  margin: 20px auto;
+  display: flex;
+}
+
+.comshow1 {
+  position: relative;
+}
+
+.customer_say {
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  margin-top: 25px;
+  margin-left: 18px;
+}
+
+
+.er {
+  position: relative;
+  display: inline-block;
+  list-style-type: none;
+  font-size: 20px;
+  line-height: 1.5;
+  font-family: 標楷體;
+  margin-left: 40px;
+  padding-left: 10px;
+  top: -25px;
+}
+
+
+.stime {
+  position: absolute;
+  font-family: sans-serif;
+  bottom: -10px;
+  top: 95px;
+  margin-left: 150px;
+  padding-left: 10px;
+
+}
+
+.text {
+  position: relative;
+  display: inline-block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 2.4;
+  margin-left: 40px;
+  padding-left: 10px;
+  top: -25px;
+  border-left: 1px solid #3e1f47;
+}
+
+.ratingshow {
+  width: 100%;
+  line-height: 100px;
+  margin-left: 140px;
+}
+
+.ratings {
+  position: relative;
+  vertical-align: middle;
+  display: inline-block;
+  color: #ddd;empty_star
+  /*背景星星顏色*/
+  overflow: hidden;
+  font-size: 30px;
+  /*調整字體大小可放大縮小星星*/
+  text-shadow: 0px 1px 0 #efe5dc;
+}
+
+.full_star {
+  width: 90%;
+  /*調整寬度可變更星等*/
+  position: absolute;
+  left: 0;
+  top: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #e54b4b;
+  /*前景星星顏色*/
+}
